@@ -7,6 +7,6 @@
 logs
 
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iml
 
