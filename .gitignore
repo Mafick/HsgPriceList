@@ -1,12 +1,3 @@
-### Build Stuff ###
-/target/
-/out/
-!.mvn/wrapper/maven-wrapper.jar
-
-### LOG ###
-logs
-
-### IntelliJ IDEA ###
+# IDE Code ignoramuses.
 .idea/
 *.iml
-
