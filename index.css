@@ -1,3 +1,24 @@
 .zoom-root {
     zoom: 150%;
 }
+
+.moving-icon {
+    height: 10px;
+    width: 10px;
+    margin: 10px 0 0 ;
+    animation: updown 2s ease infinite;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
